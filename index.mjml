@@ -1,0 +1,170 @@
+<mjml>
+  <mj-head>
+
+    <mj-style>
+      * {
+        box-sizing: border-box;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+      }
+
+      body {
+        background: #ededed;
+        background-color: #ededed;
+        font-family: sans-serif;
+      }
+
+      p {
+        font-size: 14px;
+        font-weight: 500;
+        color: #333333;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .btn {
+        background: #0568ae;
+        background-color: #0568ae;
+        width: 150px;
+        border-radius: 4px;
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+        color: #ffffff;
+        font-weight: normal;
+        text-decoration: none;
+      }
+
+      .darkText {
+        color: #333333;
+      }
+
+      .whiteBg {
+        background: #ffffff;
+        background-color: #ffffff;
+      }
+
+      .darkerBlueLink {
+        color: #0574ac;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 14px;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-raw>
+      <!-- Header section -->
+    </mj-raw>
+    <mj-section padding="10px 0 40px" background-color="#191919">
+      <mj-column>
+        <mj-image src="https://www.dropbox.com/scl/fi/wjtzsm7mjg0mv8mqz5llr/myatt.png?rlkey=fj81lt6cbun8bbayce9utyaf8&raw=1" alt="" width="100px" align="left" />
+      </mj-column>
+      <mj-column>
+        <mj-text>
+          <p style="color: #ffffff; font-size: 1.42em; font-weight: normal">AT&T payment confirmation</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="whiteBg" padding-bottom="0">
+      <mj-column padding-bottom="0">
+        <mj-text font-size="14px" font-weight="500" line-height="16px" color="#333333">
+          Hi Customer,
+          <br>
+          <br>
+          We've received your payment.
+          <br>
+          <br>
+          <strong>Services(s):</strong> Wireless <br>
+          <strong>Account number: </strong> ending in 8328 <br>
+          <strong>Amount:</strong> $328.55 <br>
+          <strong>Payment date:</strong> 09/30/2023 <br>
+          <strong>Payment method:</strong> Visa <br>
+          <strong>Confirmation:</strong> H28S203LSQCYTLNP <br>
+          <br>
+          Sign in to view this payment arrangement. <br>
+          <br>
+          <a href="#" class="btn">Sign In</a>
+          <br>
+          <br>
+          Thanks for choosing us,<br>
+          AT&T
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+    <mj-section css-class="whiteBg" padding="0">
+      <mj-divider border-width="1px" border-style="dotted" />
+    </mj-section>
+    <mj-section css-class="whiteBg">
+      <mj-column>
+        <mj-text font-size="14px">
+          <strong>Popular support topics</strong> <br>
+          <br>
+          <a href="#" class="darkerBlueLink">Manage wireless data use</a><br>
+          <br>
+          <a href="#" class="darkerBlueLink">Optimize your internet speed</a><br>
+          <br>
+          <a href="#" class="darkerBlueLink">Set up a mobile hotpsot</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="whiteBg" padding="0">
+      <mj-divider border-width="1px" border-style="dotted" />
+    </mj-section>
+    <mj-section css-class="whiteBg" padding-bottom="10px">
+      <mj-column padding-bottom="20px">
+        <mj-image src="https://www.dropbox.com/scl/fi/m79thgxda955buphvlovp/paperless.png?rlkey=y8ycgbhd4miptpu9p2wbxqrif&raw=1" alt="" width="80px" padding="0" />
+        <mj-text align="center" font-family="14px" line-height="16px">
+          <a href="#" class="darkerBlueLink">Go Paperless</a>
+          <p class="darkText">Reduce clutter with online billing.</p>
+        </mj-text>
+      </mj-column>
+      <mj-column padding-bottom="20px">
+        <mj-image src="https://www.dropbox.com/scl/fi/qx71fokeb31cc90m0vfmp/autopay.png?rlkey=orvj8g0pvyl28dkgqx8m3md0u&raw=1" alt="" width="80px" padding="0" />
+        <mj-text align="center" font-family="14px" line-height="16px">
+          <a href="#" class="darkerBlueLink">Set up Autopay</a>
+          <p>Save time and pay your bill automatically!</p>
+        </mj-text>
+      </mj-column>
+      <mj-column padding-bottom="20px">
+        <mj-image src="https://www.dropbox.com/scl/fi/s69jcbu99a5yzkh7hrulm/att-globe.png?rlkey=pnn984pi5b9hr2bh47klv2cw7&raw=1" alt="" width="80px" padding="0" />
+        <mj-text align="center" font-family="14px" line-height="16px">
+          <a href="#" class="darkerBlueLink">Understand your Bill</a>
+          <p>Get info about your bill and payment options.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#191919" padding-bottom=0>
+      <mj-column width="80%">
+        <mj-text font-size="12px" color="#ffffff">
+          <a href="#" style="color: white;">Sign-in myAT&T Account</a> &nbsp; &nbsp; | &nbsp; &nbsp; <a href="#" style="color: white;">some more text</a>&nbsp; &nbsp; | &nbsp; &nbsp; <a href="#" style="color: white;">some more text</a> <br>
+          <br>
+          TTY and relay services available
+        </mj-text>
+      </mj-column>
+      <mj-column width="50px" padding-top="10px">
+        <mj-image src="https://www.dropbox.com/scl/fi/t055bvmwc7fs90j3ryu4u/facebook.png?rlkey=kkqt24o6cu7dhifp78muqwd1j&raw=1" alt="" width="38px" padding="0" />
+      </mj-column>
+      <mj-column width="50px" padding-top="10px">
+        <mj-image src="https://www.dropbox.com/scl/fi/sxzvl9s81kujnz32xgus9/twitter.png?rlkey=chw4kmr6cezje08k1gyv9gkcv&raw=1" alt="" width="38px" padding="0" />
+      </mj-column>
+      <mj-column width="100%" padding-top="30px">
+        <mj-text padding="0 0 0 35px">
+          <p style="color: white; font-weight: normal; font-size: 12px; line-height: 14px">Please do not reply to this message. <br> All the replise are automatically deleted. For questions regarding this message, refer to the <br> contact information listed above.</p>
+        </mj-text>
+        <mj-text padding="20px 0 0 35px" line-height="16px">
+          <p style="color: white; font-weight: normal; font-size: 12px; line-height: 14px">&copy; 2023 AT&T Intellectual Property. All rights reserved. AT&T, Globe logo, and DIRECTV are <br>registered trademarks of AT&T intellectual property and/or AT&T affiliated companies. All <br>other markes are the property of their respective owners.</p>
+          <a href="#" style="color: white;">ATT Privacy Policy</a><br>
+          <a href="#" style="color: white;">DIRECTV Privacy Policy</a>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%" padding-top="10px">
+        <mj-image src="https://www.dropbox.com/scl/fi/m7eecemtug2luqir9002x/att-globe-sm.png?rlkey=yc5k25m1k47jdhedtx6ncja89&raw=1" alt="" width="60px" padding-bottom="0" />
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="whiteBg" padding="10px">
+    </mj-section>
+  </mj-body>
+</mjml>
