@@ -58,7 +58,7 @@
     </mj-raw>
     <mj-include path="./components/header.mjml" />
     <mj-section css-class="whiteBg" padding-bottom="0">
-      <mj-column padding-bottom="0">
+      <mj-column padding-bottom="0" width="100%">
         <mj-text font-size="14px" font-weight="500" line-height="16px" color="#333333">
           Hi Customer,
           <br>
@@ -82,13 +82,13 @@
           AT&T
         </mj-text>
       </mj-column>
+      <mj-column css-class="whiteBg" padding="0" width="100%">
+        <mj-divider border-width="1px" border-style="dotted" />
+      </mj-column>
+    </mj-section>
 
-    </mj-section>
-    <mj-section css-class="whiteBg" padding="0">
-      <mj-divider border-width="1px" border-style="dotted" />
-    </mj-section>
     <mj-section css-class="whiteBg">
-      <mj-column>
+      <mj-column width=100%>
         <mj-text font-size="14px">
           <strong>Popular support topics</strong> <br>
           <br>
@@ -99,10 +99,11 @@
           <a href="#" class="darkerBlueLink">Set up a mobile hotpsot</a>
         </mj-text>
       </mj-column>
+      <mj-column css-class="whiteBg" padding="0" width="100%">
+        <mj-divider border-width="1px" border-style="dotted" />
+      </mj-column>
     </mj-section>
-    <mj-section css-class="whiteBg" padding="0">
-      <mj-divider border-width="1px" border-style="dotted" />
-    </mj-section>
+
     <mj-section css-class="whiteBg" padding-bottom="10px">
       <mj-column padding-bottom="20px">
         <mj-image src="https://www.dropbox.com/scl/fi/m79thgxda955buphvlovp/paperless.png?rlkey=y8ycgbhd4miptpu9p2wbxqrif&raw=1" alt="" width="80px" padding="0" />
