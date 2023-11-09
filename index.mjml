@@ -56,16 +56,7 @@
     <mj-raw>
       <!-- Header section -->
     </mj-raw>
-    <mj-section padding="10px 0 40px" background-color="#191919">
-      <mj-column>
-        <mj-image src="https://www.dropbox.com/scl/fi/wjtzsm7mjg0mv8mqz5llr/myatt.png?rlkey=fj81lt6cbun8bbayce9utyaf8&raw=1" alt="" width="100px" align="left" />
-      </mj-column>
-      <mj-column>
-        <mj-text>
-          <p style="color: #ffffff; font-size: 1.42em; font-weight: normal">AT&T payment confirmation</p>
-        </mj-text>
-      </mj-column>
-    </mj-section>
+    <mj-include path="./components/header.mjml" />
     <mj-section css-class="whiteBg" padding-bottom="0">
       <mj-column padding-bottom="0">
         <mj-text font-size="14px" font-weight="500" line-height="16px" color="#333333">
@@ -136,34 +127,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#191919" padding-bottom=0>
-      <mj-column width="80%">
-        <mj-text font-size="12px" color="#ffffff">
-          <a href="#" style="color: white;">Sign-in myAT&T Account</a> &nbsp; &nbsp; | &nbsp; &nbsp; <a href="#" style="color: white;">some more text</a>&nbsp; &nbsp; | &nbsp; &nbsp; <a href="#" style="color: white;">some more text</a> <br>
-          <br>
-          TTY and relay services available
-        </mj-text>
-      </mj-column>
-      <mj-column width="50px" padding-top="10px">
-        <mj-image src="https://www.dropbox.com/scl/fi/t055bvmwc7fs90j3ryu4u/facebook.png?rlkey=kkqt24o6cu7dhifp78muqwd1j&raw=1" alt="" width="38px" padding="0" />
-      </mj-column>
-      <mj-column width="50px" padding-top="10px">
-        <mj-image src="https://www.dropbox.com/scl/fi/sxzvl9s81kujnz32xgus9/twitter.png?rlkey=chw4kmr6cezje08k1gyv9gkcv&raw=1" alt="" width="38px" padding="0" />
-      </mj-column>
-      <mj-column width="100%" padding-top="30px">
-        <mj-text padding="0 0 0 35px">
-          <p style="color: white; font-weight: normal; font-size: 12px; line-height: 14px">Please do not reply to this message. <br> All the replise are automatically deleted. For questions regarding this message, refer to the <br> contact information listed above.</p>
-        </mj-text>
-        <mj-text padding="20px 0 0 35px" line-height="16px">
-          <p style="color: white; font-weight: normal; font-size: 12px; line-height: 14px">&copy; 2023 AT&T Intellectual Property. All rights reserved. AT&T, Globe logo, and DIRECTV are <br>registered trademarks of AT&T intellectual property and/or AT&T affiliated companies. All <br>other markes are the property of their respective owners.</p>
-          <a href="#" style="color: white;">ATT Privacy Policy</a><br>
-          <a href="#" style="color: white;">DIRECTV Privacy Policy</a>
-        </mj-text>
-      </mj-column>
-      <mj-column width="100%" padding-top="10px">
-        <mj-image src="https://www.dropbox.com/scl/fi/m7eecemtug2luqir9002x/att-globe-sm.png?rlkey=yc5k25m1k47jdhedtx6ncja89&raw=1" alt="" width="60px" padding-bottom="0" />
-      </mj-column>
-    </mj-section>
+    <mj-include path="./components/footer.mjml" />
     <mj-section css-class="whiteBg" padding="10px">
     </mj-section>
   </mj-body>

@@ -1,0 +1,10 @@
+  <mj-section padding="10px 0 40px" background-color="#191919">
+    <mj-column>
+      <mj-image src="https://www.dropbox.com/scl/fi/wjtzsm7mjg0mv8mqz5llr/myatt.png?rlkey=fj81lt6cbun8bbayce9utyaf8&raw=1" alt="" width="100px" align="left" />
+    </mj-column>
+    <mj-column>
+      <mj-text>
+        <p style="color: #ffffff; font-size: 1.42em; font-weight: normal">AT&T payment confirmation</p>
+      </mj-text>
+    </mj-column>
+  </mj-section>
